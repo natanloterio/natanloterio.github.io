@@ -209,7 +209,21 @@
     mixpanel.track("view");
 
   </script><!-- end Mixpanel -->
-
+	<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  // TODO: Replace with your project's customized code snippet
+	  var config = {
+		  apiKey: "AIzaSyBVcwzCQ7puPYyWFis-LkzZbFfqzZ2Tg3w",
+		  authDomain: "ailos-admissao-digital.firebaseapp.com",
+		  databaseURL: "https://ailos-admissao-digital.firebaseio.com",
+		  projectId: "ailos-admissao-digital",
+		  storageBucket: "ailos-admissao-digital.appspot.com",
+		  messagingSenderId: "216956152083",
+		  appId: "1:216956152083:web:f1fc203c64333f85"
+	  };
+	  firebase.initializeApp(config);
+	</script>
 	</body>
 
 </html>
